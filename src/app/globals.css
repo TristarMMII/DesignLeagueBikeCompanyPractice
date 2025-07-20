@@ -24,3 +24,17 @@
 body {
   background-color: red;
 }
+
+.background {
+  background-color: #262626;
+}
+
+.background-fade {
+  background: linear-gradient(to bottom, #262626 0%, #484848 100%);
+  /* min-height: 100vh; */
+}
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+}

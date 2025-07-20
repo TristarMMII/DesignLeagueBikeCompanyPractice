@@ -4,7 +4,7 @@ export default function Navbar() {
 
 
     return (
-        <header className="bg-neutral-800 p-5 flex items-center justify-between">
+        <header className="background p-5 flex items-center justify-between">
 
             <div className="ml-15 text-white text-4xl flex items-center justify-between">
                 <Image className="mr-3 mt-3" src="/logo.png" alt="Company Logo" width={45} height={45} />
