@@ -17,10 +17,20 @@ export default function DataSection() {
             </div>
 
             {/* Horizontal line */}
-            <hr className="border-t border-gray-300 mt-4" />
+            <hr className="border-t-2 border-gray-300 mt-20 mx-10" />
+            {/* percent section */}
+            <div className="flex justify-end pr-10 mr-50">
+                {/* left line */}
+                <div className="border-l-2 border-gray-300 flex gap-20  ">
+                    <div>
+                        <div className="text-[10rem] pl-25">25%</div>
+                        <p>Treduction in commuter transportation and carbon emissions</p>
+                    </div>
 
-            {/* Vertical line */}
-            {/* <div className="absolute left-[33%] top-full mt-0.5 w-px h-16 bg-gray-300"></div> */}
+                    <div className="text-[10rem] -mr-20">30%</div>
+                </div>
+            </div>
+
         </div>
     );
 }
