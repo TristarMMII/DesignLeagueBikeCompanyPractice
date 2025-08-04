@@ -1,7 +1,9 @@
 "use client"
 import DataSection from './components/dataSection';
 import Hero from './components/hero';
-import Navbar from './components/navbar'; // Adjust the path as per your project structure
+import Navbar from './components/navbar';
+import InformationSection from './components/informationSection';
+
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
       <main>
         <Hero />
         <DataSection />
+        <InformationSection />
       </main>
     </div>
   );
