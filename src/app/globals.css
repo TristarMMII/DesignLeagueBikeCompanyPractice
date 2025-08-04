@@ -21,9 +21,6 @@
   }
 } */
 
-body {
-  background-color: red;
-}
 
 .background {
   background-color: #262626;
@@ -37,4 +34,19 @@ body {
 .responsive-img {
   width: 100%;
   height: auto;
+}
+
+/* recycle animation */
+@keyframes scroll-text {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-text {
+  animation: scroll-text 60s linear infinite;
 }

@@ -5,7 +5,7 @@ import Navbar from './components/navbar'; // Adjust the path as per your project
 
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar />
 
       <main>
