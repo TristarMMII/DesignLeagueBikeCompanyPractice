@@ -3,6 +3,7 @@ import DataSection from './components/dataSection';
 import Hero from './components/hero';
 import Navbar from './components/navbar';
 import InformationSection from './components/informationSection';
+import EcoboostSection from './components/ecoboostSection';
 
 
 export default function Home() {
@@ -14,6 +15,8 @@ export default function Home() {
         <Hero />
         <DataSection />
         <InformationSection />
+        <EcoboostSection />
+
       </main>
     </div>
   );
