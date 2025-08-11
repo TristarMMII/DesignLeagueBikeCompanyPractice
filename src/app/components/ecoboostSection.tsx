@@ -17,7 +17,7 @@ export default function EcoboostSection() {
                     >
                         {Array.from({ length: 20 }).map((_, i) => (
                             <span key={i} className="mr-6">
-                                ECOBOOST -
+                                ECOBOOST - ECOBOOST
                             </span>
                         ))}
                     </div>
@@ -69,7 +69,7 @@ export default function EcoboostSection() {
                 {/* Left arrow button */}
                 <button
                     aria-label="Previous"
-                    className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-[#FE610B] rounded-full w-25 h-25 flex justify-center items-center shadow-lg hover:bg-orange-600 transition"
+                    className="absolute left-10 top-1/2 transform -translate-y-1/2 bg-[#FE610B] rounded-full w-25 h-25 flex justify-center items-center shadow-lg hover:bg-orange-600 transition"
 
                 >
                     <FontAwesomeIcon size="xl" icon={faArrowLeft} />
@@ -79,7 +79,7 @@ export default function EcoboostSection() {
                 {/* Right arrow button */}
                 <button
                     aria-label="Next"
-                    className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-[#FE610B] rounded-full w-25 h-25 flex justify-center items-center shadow-lg hover:bg-orange-600 transition"
+                    className="absolute right-10 top-1/2 transform -translate-y-1/2 bg-[#FE610B] rounded-full w-25 h-25 flex justify-center items-center shadow-lg hover:bg-orange-600 transition"
 
                 >
                     <FontAwesomeIcon size="xl" icon={faArrowRight} />
