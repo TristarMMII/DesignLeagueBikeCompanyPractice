@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Current Progress
+<img  alt="BikeDesignPractice" src="https://github.com/user-attachments/assets/e2498bf1-2b09-4b68-ac59-59783d14d096" />
+
+
+## Tech Stack
+Created with Next.js, React, and Tailwind CSS
 
 ## Getting Started
 
