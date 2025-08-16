@@ -6,6 +6,7 @@ import InformationSection from './components/informationSection';
 import EcoboostSection from './components/ecoboostSection';
 import CommuteBigSection from './components/commuteBigSection';
 import ReviewsSection from './components/reviewsSection';
+import JoinSection from './components/joinSection';
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <EcoboostSection />
         <CommuteBigSection />
         <ReviewsSection />
+        <JoinSection />
 
       </main>
     </div>
