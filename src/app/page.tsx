@@ -4,6 +4,7 @@ import Hero from './components/hero';
 import Navbar from './components/navbar';
 import InformationSection from './components/informationSection';
 import EcoboostSection from './components/ecoboostSection';
+import CommuteBigSection from './components/commuteBigSection';
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <DataSection />
         <InformationSection />
         <EcoboostSection />
+        <CommuteBigSection />
 
       </main>
     </div>
