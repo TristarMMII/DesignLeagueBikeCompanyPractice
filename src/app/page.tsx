@@ -2,6 +2,7 @@
 import DataSection from './components/dataSection';
 import Hero from './components/hero';
 import Navbar from './components/navbar';
+import Footer from './components/footer';
 import InformationSection from './components/informationSection';
 import EcoboostSection from './components/ecoboostSection';
 import CommuteBigSection from './components/commuteBigSection';
@@ -22,8 +23,9 @@ export default function Home() {
         <CommuteBigSection />
         <ReviewsSection />
         <JoinSection />
-
       </main>
+
+      <Footer />
     </div>
   );
 }
