@@ -19,7 +19,9 @@ export default function DataSection() {
                 </div>
 
                 {/* Horizontal line */}
-                <hr className="border-t-2 border-gray-300 mt-20 mx-10" />
+                <div className="w-full px-20">
+                    <hr className="border-t-2 border-gray-300 z-30 relative mt-20" />
+                </div>
 
                 {/* percent section */}
                 <div className="flex justify-end pr-10 mr-50">

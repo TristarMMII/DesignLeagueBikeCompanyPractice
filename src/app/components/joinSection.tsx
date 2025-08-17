@@ -24,7 +24,9 @@ export default function joinSection() {
             </h1>
 
             {/* Horizontal line */}
-            <hr className="w-[95%] border-t-2 border-white z-30 relative mt-20 mx-auto" />
+            <div className="w-full px-20">
+                <hr className="border-t-2 border-white z-30 relative mt-20" />
+            </div>
 
             <p className="text-5xl z-30 text-white pb-2 max-w-sm self-start m-20">Join the ReCycle Revolution</p>
 
