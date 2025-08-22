@@ -13,8 +13,8 @@ export default function Navbar() {
                     className="mr-2 md:mr-2 lg:mr-3 lg:mt-3"
                     src="/logo.png"
                     alt="Company Logo"
-                    width={40}
-                    height={40}
+                    width={45}
+                    height={45}
                 />
                 Recycle
                 <span className="text-lg md:text-xl lg:text-2xl align-top">&reg;</span>
