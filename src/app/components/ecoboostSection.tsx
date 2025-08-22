@@ -6,14 +6,13 @@ export default function EcoboostSection() {
     return (
         <div className="relative bg-white py-30 px-10 flex items-center justify-center flex-col overflow-hidden">
             {/* Background text */}
-            <div className="absolute inset-0 text-[20rem] leading-[0.8] font-normal select-none pointer-events-none">
-                {Array.from({ length: 4 }).map((_, rowIndex) => (
+            <div className="absolute inset-0 text-[15rem] sm:text-[20rem] leading-[0.8] font-normal select-none pointer-events-none">
+
+                {Array.from({ length: 5 }).map((_, rowIndex) => (
                     <div
                         key={rowIndex}
                         className="whitespace-nowrap"
-                        style={{
-                            transform: `translateX(${(-20 * rowIndex) - 10}%)`
-                        }}
+                        style={{ transform: `translateX(${(-20 * rowIndex) - 10}%)` }}
                     >
                         {Array.from({ length: 20 }).map((_, i) => (
                             <span key={i} className="mr-6">
@@ -25,14 +24,12 @@ export default function EcoboostSection() {
             </div>
 
             {/* Foreground content */}
-            <div className="relative z-10 flex justify-center items-center w-full">
+            <div className="relative z-10 flex flex-col lg:flex-row items-center w-full justify-start gap-20 lg:justify-center lg:gap-0">
 
                 {/* Orange box */}
                 <div
                     className="absolute z-0 bg-[#FE610B] overflow-hidden"
-                    style={{
-                        transform: 'rotate(5deg)',
-                    }}
+                    style={{ transform: 'rotate(5deg)' }}
                 >
                     <Image
                         src="/girl-on-bike.svg"
@@ -66,26 +63,26 @@ export default function EcoboostSection() {
                     />
                 </div>
 
-                {/* Left arrow button */}
-                <button
-                    aria-label="Previous"
-                    className="absolute left-10 top-1/2 transform -translate-y-1/2 bg-[#FE610B] rounded-full w-25 h-25 flex justify-center items-center shadow-lg hover:bg-orange-600 transition"
+                {/* Arrow buttons below image on small and med, overlaid on large+ */}
+                <div className="flex w-full justify-center gap-20 lg:contents">
+                    {/* Left */}
+                    <button
+                        aria-label="Previous"
+                        className="bg-[#FE610B] rounded-full w-25 h-25 flex justify-center items-center shadow-lg hover:bg-orange-600 transition
+                       lg:absolute lg:left-10 lg:top-1/2 lg:-translate-y-1/2"
+                    >
+                        <FontAwesomeIcon size="xl" icon={faArrowLeft} />
+                    </button>
 
-                >
-                    <FontAwesomeIcon size="xl" icon={faArrowLeft} />
-
-                </button>
-
-                {/* Right arrow button */}
-                <button
-                    aria-label="Next"
-                    className="absolute right-10 top-1/2 transform -translate-y-1/2 bg-[#FE610B] rounded-full w-25 h-25 flex justify-center items-center shadow-lg hover:bg-orange-600 transition"
-
-                >
-                    <FontAwesomeIcon size="xl" icon={faArrowRight} />
-                </button>
-
-
+                    {/* Right */}
+                    <button
+                        aria-label="Next"
+                        className="bg-[#FE610B] rounded-full w-25 h-25 flex justify-center items-center shadow-lg hover:bg-orange-600 transition
+                       lg:absolute lg:right-10 lg:top-1/2 lg:-translate-y-1/2"
+                    >
+                        <FontAwesomeIcon size="xl" icon={faArrowRight} />
+                    </button>
+                </div>
             </div>
         </div>
     );
