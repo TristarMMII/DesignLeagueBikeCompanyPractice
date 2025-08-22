@@ -18,20 +18,19 @@ export default function InformationSection() {
                     priority
                 />
 
-                {/* Overlayed text */}
-                <div className="absolute bottom-15 left-15 text-left max-w-xl">
-                    <p className="text-4xl font-semibold pb-2">High-quality materials</p>
-                    <p className="text-2xl text-neutral-400">
+                {/* Text*/}
+                <div className="mt-4 mb-4 px-4 text-center max-w-xl md:mt-0 md:mb-0 md:px-0 md:text-left md:absolute md:bottom-15 md:left-15">
+                    <p className="text-3xl md:text-4xl font-semibold pb-2">High-quality materials</p>
+                    <p className="text-xl md:text-2xl text-neutral-400">
                         Premium materials and advanced construction techniques to ensure durability and a long lifespan
                     </p>
                 </div>
             </div>
 
-
             {/* Row of 2 image sections side by side */}
-            <div className="flex flex-row mt-20 w-[95%] gap-5">
+            <div className="flex flex-col md:flex-row mt-20 w-[95%] gap-5">
                 {/* E-bike map */}
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                     <div className="bg-[#262626]">
                         <Image
                             src="/E-bike-map.svg"
@@ -44,14 +43,14 @@ export default function InformationSection() {
                     </div>
                     <div className="pt-4">
                         <p className="text-4xl font-semibold pb-4">High-quality materials</p>
-                        <p className="text-2xl text-neutral-400">
+                        <p className="text-2xl text-neutral-400 md:pb-0 pb-15">
                             Premium materials and advanced construction techniques to ensure durability and a long lifespan.
                         </p>
                     </div>
                 </div>
 
                 {/* Bike together */}
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                     <div className="bg-[#262626]">
                         <Image
                             src="/bike-together.svg"
