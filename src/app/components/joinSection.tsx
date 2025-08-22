@@ -19,7 +19,7 @@ export default function joinSection() {
             </div>
 
             {/* Overlayed text */}
-            <h1 className="absolute top-5 left-20 text-[20rem] text-white z-10">
+            <h1 className="absolute top-5 left-20 text-[10rem] md:text-[20rem] text-white z-10">
                 J<span className="italic">O</span>IN
             </h1>
 
