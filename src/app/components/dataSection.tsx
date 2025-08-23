@@ -26,16 +26,16 @@ export default function DataSection() {
                 {/* percent section */}
                 <div className="flex justify-end pr-10 mr-10 lg:mr-50">
                     {/* left line */}
-                    <div className="border-l-2 border-gray-300 flex max-[440px]:flex-col">
-                        <div className="pl-40 max-[440px]:pl-6">
+                    <div className="border-l-2 border-gray-300 flex max-[600px]:flex-col">
+                        <div className="pl-40 max-[600px]:pl-6">
                             <div className="md:text-[10rem] text-[5rem]">25%</div>
                             <p className="md:w-80 w-40">
                                 Treduction in commuter transportation and carbon emissions
                             </p>
                         </div>
 
-                        <div className="-mr-15 ml-15 max-[440px]:-mr-0 max-[440px]:ml-0 max-[440px]:mt-6">
-                            <div className="pl-40 max-[440px]:pl-6">
+                        <div className="-mr-15 ml-15 max-[600px]:-mr-0 max-[600px]:ml-0 max-[600px]:mt-6">
+                            <div className="pl-40 max-[600px]:pl-6">
                                 <div className="md:text-[10rem] text-[5rem]">30%</div>
                                 <p className="md:w-80 w-40">
                                     Treduction in commuter transportation and carbon emissions
