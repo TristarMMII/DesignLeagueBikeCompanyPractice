@@ -53,7 +53,7 @@ export default function InformationSection() {
                 <div className="w-full md:w-1/2">
                     <div className="bg-[#262626]">
                         <Image
-                            src="/bike-together.svg"
+                            src="/Bike-together.svg"
                             alt="two people biking together"
                             layout="responsive"
                             width={1600}
